@@ -35,7 +35,7 @@ public void addComputer (){
 
 public void fillDetails(){
 
-waitForElementToLoad(_ComputerName,5);
+waitForElementToLoad(_ComputerName,10);
 enterText(_ComputerName,prop.getProperty("computerName"));
 enterText(_IntroduceDate,prop.getProperty("introDate"));
 enterText(_DiscontinuedDate,prop.getProperty("discontDate"));
@@ -54,13 +54,13 @@ public void searchComputer (){
 }
 
 public void selectEditComputer(){
-    waitForClickable(_EditComputer,5);
+    waitForClickable(_EditComputer,10);
     clickElement(_EditComputer);
 
 }
 
 public void editComputer(String RevIntroDate){
-    waitForElementToLoad(_IntroduceDate,5);
+    waitForElementToLoad(_IntroduceDate,10);
     clearAndEnterText(_IntroduceDate,RevIntroDate);
 }
 
