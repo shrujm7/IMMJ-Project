@@ -1,0 +1,362 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the home page",
+            "match": {
+              "location": "Immj.StepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-16T15:02:01.030Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7793000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.setUPBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User is able to add new computer successfully",
+        "description": "",
+        "id": "user-should-be-able-to-add-new-computer-successfully;user-is-able-to-add-new-computer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 846000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on add new computer",
+            "match": {
+              "location": "Immj.StepDefinitions.user_click_on_add_new_computer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1454000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill all details and click on submit button",
+            "match": {
+              "location": "Immj.StepDefinitions.fill_all_details_and_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User successfully added computer",
+            "match": {
+              "location": "Immj.StepDefinitions.user_successfully_added_computer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the home page",
+            "match": {
+              "location": "Immj.StepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-16T15:02:11.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6830000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.setUPBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should be able to edit computer details",
+        "description": "",
+        "id": "user-should-be-able-to-add-new-computer-successfully;user-should-be-able-to-edit-computer-details",
+        "after": [
+          {
+            "result": {
+              "duration": 4113000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 854000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User searches for the computer to be edited",
+            "match": {
+              "location": "Immj.StepDefinitions.user_searches_for_the_computer_to_be_edited()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 448000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "selects the computer",
+            "match": {
+              "location": "Immj.StepDefinitions.selects_the_computer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "edits the Introduced Date to \"2020-02-02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-02-02\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Immj.StepDefinitions.edits_the_Introduced_Date_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is able to save changes successfully",
+            "match": {
+              "location": "Immj.StepDefinitions.user_is_able_to_save_changes_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the home page",
+            "match": {
+              "location": "Immj.StepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-16T15:02:24.774Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6120000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.setUPBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User delete the computer successfully",
+        "description": "",
+        "id": "user-should-be-able-to-add-new-computer-successfully;user-delete-the-computer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Immj.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 820000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User searches for the computer to be deleted",
+            "match": {
+              "location": "Immj.StepDefinitions.user_searches_for_the_computer_to_be_deleted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "selects it",
+            "match": {
+              "location": "Immj.StepDefinitions.selects_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on delete computer button",
+            "match": {
+              "location": "Immj.StepDefinitions.user_clicks_on_delete_computer_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is able to delete computer successfully",
+            "match": {
+              "location": "Immj.StepDefinitions.user_is_able_to_delete_computer_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to add new computer successfully",
+    "description": "",
+    "id": "user-should-be-able-to-add-new-computer-successfully",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Immj/AddComputer.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
