@@ -47,7 +47,7 @@
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.6</version>
+      <version>2.7</version>
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
@@ -82,13 +82,13 @@
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.6</version>
+      <version>2.7</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.6</version>
+      <version>2.7</version>
       <scope>compile</scope>
     </dependency>
 
